@@ -1,8 +1,16 @@
 var textWrapper = document.querySelector(".ml6 .letters");
-textWrapper.innerHTML = textWrapper.textContent.replace(
-  /\S/g,
-  "<span class='letter'>$&</span>"
-);
+
+textWrapper.innerHTML = textWrapper.textContent
+  .trim()
+  .split(" ")
+  .map(
+    (word) =>
+      `<span class="word">${word.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      )}</span>`
+  )
+  .join(" ");
 
 anime
   .timeline({ loop: true })
