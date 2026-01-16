@@ -3,3 +3,37 @@ body {
   display: block;
   text-align: center;
 }
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+footer {
+  margin-top: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+a {
+  font-style: normal;
+  color: #eb2ea2;
+  border-radius: 10px;
+  padding: 2px;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px auto;
+  transition: all 0.5s ease;
+}
