@@ -24,44 +24,53 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1 class="ml6">
-        <span class="text-wrapper">
-          <span class="letters">Welcome to the AI French Poem Generator</span>
-        </span>
-      </h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div class="">Displaying poem</div>
-    </main>
-    <footer>
-      Designed by
-      <a href="https://julepdesign.com" target="_blank">julepdesign.com</a
-      ><br />
-      Coded with mucho amor 🩷 by
-      <a href="https://github.com/julepdesign" target="_blank"> julepdesign</a>,
-      available open-sourced on
-      <a
-        href="https://github.com/julepdesign/french-poem-generator"
-        target="_blank"
-      >
-        Github</a
-      >
-      & hosted on
-      <a href="https://french-poem-generator-sable.vercel.app/" target="_blank">
-        Vercel</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1 class="ml6">
+          <span class="text-wrapper">
+            <span class="letters">Welcome to the AI French Poem Generator</span>
+          </span>
+        </h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="topic-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Displaying poem... <br />
+          In a minute
+        </div>
+      </main>
+      <footer>
+        Designed by
+        <a href="https://julepdesign.com" target="_blank">julepdesign.com</a
+        ><br />
+        Coded with mucho amor ❤️ by
+        <a href="https://github.com/julepdesign" target="_blank"> julepdesign</a
+        >, available open-sourced on
+        <a
+          href="https://github.com/julepdesign/french-poem-generator"
+          target="_blank"
+        >
+          Github</a
+        >
+        & hosted on
+        <a
+          href="https://french-poem-generator-sable.vercel.app/"
+          target="_blank"
+        >
+          Vercel</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

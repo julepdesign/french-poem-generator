@@ -1,10 +1,16 @@
 body {
+  background-color: transparent;
   font-family: "Bricolage Grotesque";
+  color: #1c1c1c;
   display: block;
   text-align: center;
 }
+.container {
+  margin: 40px;
+}
 h1 {
   padding: 30px;
+  line-height: 1;
 }
 .ml6 {
   position: relative;
@@ -23,11 +29,63 @@ h1 {
 }
 .ml6 .word {
   display: inline-block;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+main {
+  background: url("images/blurred-gradient.jpg") top / cover no-repeat;
+  display: inline-block;
+  margin: 0;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 60px;
+  width: 60%;
+}
+form {
+  display: flex;
+}
+.topic-input {
+  font-family: "Bricolage Grotesque";
+  font-size: 15px;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  width: 60%;
+}
+.submit-button {
+  font-family: "Bricolage Grotesque";
+  font-weight: 600;
+  font-size: 12px;
+  padding: 15px 25px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  border: none;
+  border-radius: 40px;
+  color: #1c1c1c;
+  margin-left: 10px;
+  text-align: center;
+  padding: 20px 20px;
+  width: 30%;
+  transition: all 0.5s ease;
+}
+.submit-button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1c1c1c;
+}
+.poem {
+  text-align: left;
+  margin: 40px;
+  color: white;
+  border-left: 2px #fff solid;
+  padding: 20px;
 }
 footer {
   margin-top: 40px;
@@ -36,7 +94,7 @@ footer {
 }
 a {
   font-style: normal;
-  color: #eb2ea2;
+  color: #fe2400;
   border-radius: 10px;
   padding: 2px;
   font-weight: 900;
