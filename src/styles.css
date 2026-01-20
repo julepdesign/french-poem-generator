@@ -62,7 +62,7 @@ form {
 .submit-button {
   font-family: "Bricolage Grotesque";
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   padding: 15px 25px;
   width: auto;
   background: rgba(255, 255, 255, 0.3);
@@ -87,6 +87,11 @@ form {
   border-left: 2px #fff solid;
   padding: 20px;
 }
+
+em {
+  font-size: 10px;
+}
+
 footer {
   margin-top: 40px;
   font-size: 11px;
