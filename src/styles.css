@@ -80,6 +80,14 @@ form {
   background: rgba(255, 255, 255, 0.9);
   color: #1c1c1c;
 }
+.hint {
+  font-family: monospace;
+  font-size: 8px;
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
 .poem {
   text-align: left;
   margin: 40px;
@@ -87,7 +95,24 @@ form {
   border-left: 2px #fff solid;
   padding: 20px;
 }
+.hidden {
+  display: none;
+}
 
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 em {
   font-size: 10px;
 }
