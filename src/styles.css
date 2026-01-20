@@ -41,7 +41,7 @@ main {
   display: inline-block;
   margin: 0;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 60px;
   width: 60%;
 }
@@ -90,7 +90,7 @@ form {
 }
 .poem {
   text-align: left;
-  margin: 40px;
+  margin: 20px;
   color: white;
   border-left: 2px #fff solid;
   padding: 20px;
